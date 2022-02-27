@@ -1,0 +1,5 @@
+#+TITLE: Resume Template
+#+AUTHOR: Pushkar Raj
+#+AUTHOR: px86@protonmail.com
+
+Edit the =index.html= file. Open it in a web-browser and press =Ctrl + p=.

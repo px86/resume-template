@@ -1,0 +1,105 @@
+html,
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+a, a:focus, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page {
+    width: 8.27in;
+    height: 11.69in;
+    background: white;
+    margin: 2rem auto;
+    position: relative;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    padding: 1.25rem;
+    background: #dfdfdf;
+    line-height: 1.7;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-pic {
+    display: block;
+    width: 2.25in;
+    height: 2.25in;
+    margin: 1rem auto;
+    margin-top: 0;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#content {
+    margin-left: 35%;
+    padding: 2rem 1.4rem;
+}
+
+#content ul {
+    padding-left: 2rem;
+}
+
+#title {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#education,
+#projects {
+    margin: 2rem 0;
+}
+
+#experience > h2,
+#education > h2,
+#projects > h2,
+#skills > h2,
+#contact > h2 {
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+#experience > p,
+#projects > p,
+#education > p,
+#contact,
+#skills,
+#skills > p {
+    margin-bottom: .8rem;
+}
+
+#experience .position,
+#projects .title,
+#education .program {
+    font-weight: bold;
+}
+
+#experience .institution,
+#projects .techstack,
+#education .institution {
+    font-style: italic;
+    color: #323232;
+}
+
+@media print {
+    .page {
+	margin: 0;
+    }
+}
